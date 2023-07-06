@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="exercio, html">
+    <meta name="description" content="Exercícios de html desenvolviidos no curso da Coderhouse">
+    <title>Exercício - Parte 1</title>
+</head>
+<body>
+    <div>
+    <h2>Sobre mim:</h2>
+    <p><b>Nome:</b> Arthur Ferreira Bonfim</p>
+    <p><b>Idade:</b> 22 anos</p>
+    <p><b>Escolaridade:</b> Ensino médio completo</p>
+    <p>Estudante de programação com paixão por desenvolvimento e tecnologia. Possuo enfoque em desenvolver minhas habilidades e adquirir experiência prática na área de desenvolvimento web, com enfoque em Full-stack.</p>
+    </div>
+
+    <hr>
+
+    <div>
+    <h1>1 Seres vivos</h1>
+    <h2>1.1 Reino Animal</h2>
+        <h3>1.1.1 Vertebrados</h3>
+            <h4>1.1.1.1 Maníferos</h4>
+                <h5>1.1.1.1.1 Bípedes</h5>
+                    <h6>1.1.1.1.1.1 humanos</h6>
+                <h5>1.1.1.1.2 Quadrúpedes</h5>
+            <h4>1.1.1.2 Aves</h4>
+                    <h5>1.1.1.2.1 Voadoras</h5>
+                    <h5>1.1.1.2.2 Não voadoras</h5>
+            <h4>1.1.1.3 Répteis</h4>
+            <h4>1.1.1.4 Peixes</h4>
+            <h4>1.1.1.5 Anfíbios</h4>
+        <h3>1.1.2 Invertebrados</h3>
+            <h4>1.1.2.1 Insetos</h4>
+                    <h5>1.1.2.1.1 Voadores</h5>
+                    <h5>1.1.2.1.2 Não Voadores</h5>
+    </div>
+
+    <hr>
+
+    <div>
+    <h1>Receita: Macarrão com molho de tomate</h1>
+    <img src="https://renata.com.br/images/receitas/87/renata-imagem-receitas-macarrao-ao-molho-rustico-de-tomate-e-bacon-share.jpg" width="50%">
+    <h2>Ingredientes:</h2>
+    <ul>
+        <li>250g de macarrão (espaguete, penne, fusilli, etc.)</li>
+        <li>2 dentes de alho picados</li>
+        <li>1 lata de tomate pelado</li>
+        <li>Sal a gosto</li>
+        <li>Pimenta a gosto</li>
+        <li>Folhas de manjericão fresco (opcional)</li>
+        <li>Queijo parmesão ralado (opcional)</li>
+    </ul>
+    <h2>Instruções</h2>
+    <ol>
+        <li>Em uma panela grande, ferva água com sal. Adicione o macarrão e cozinhe de acordo com as instruções da embalagem até que esteja al dente.</li>
+        <li>Enquanto o macarrão cozinha, aqueça o azeite de oliva em uma frigideira em fogo médio. Adicione o alho picado e refogue por cerca de 1 minuto, até ficar levemente dourado.</li>
+        <li>Acrescente a lata de tomate pelado à frigideira. Com a ajuda de uma colher, quebre os tomates em pedaços menores. Tempere com sal e pimenta a gosto.</li>
+        <li>Deixe o molho de tomate cozinhar em fogo baixo por cerca de 10 a 15 minutos, mexendo ocasionalmente. Se desejar, adicione algumas folhas de manjericão fresco para dar um sabor extra.</li>
+        <li>Escorra o macarrão cozido quando estiver pronto e retorne-o à panela. Adicione o molho de tomate à panela com o macarrão e misture bem para que todos os fios fiquem cobertos pelo molho.</li>
+        <li>Sirva o macarrão com molho de tomate em pratos individuais. Se desejar, polvilhe queijo parmesão ralado por cima.</li>
+    </ol>
+    </div>
+
+    <hr>
+
+    <div>
+    <h2>Exercício Tabelas</h2>
+    <table border width="50%">
+        <tr>
+            <th>Frutas</th>
+            <th>Verduras</th>
+            <th>Legumes</th>
+        </tr>
+        <tr>
+            <td>Maçã</td>
+            <td>Alface</td>
+            <td>Amendoim</td>
+        </tr>
+        <tr>
+            <td>Laranja</td>
+            <td>Couve</td>
+            <td>Trigo</td>
+        </tr>
+    </table>
+    </div>
+
+    <hr>
+
+    <div>
+    <h2>Exercício Formulário</h2>
+    <fieldset>
+        <legend>Informações Pessoais</legend>
+        <form action="https://www.devmedia.com.br/codigos/formularios/aula3/" method="post">
+            <div>
+                <Label>Gênero</Label><br>
+                <input type="radio" name="gender" value="masculino" id="male" required>
+                <label for="male">Masculino</label>
+                <input type="radio" name="gender" value="feminino" id="female">
+                <label for="female">Feminino</label>
+                <input type="radio" name="gender" value="outro" id="other">
+                <label for="other">Outro</label>
+            </div>
+            <div>
+                <label for="name">Nome:</label>
+                <input type="text" minlength="2" maxlength="20" id="name" required>
+                <label for="Lname">Sobrenome:</label>
+                <input type="text" minlength="2" maxlength="20" id="Lname" required><br>
+            </div>
+            <div>
+                <label>Tamanho:</label>
+                <select name="size" required>
+                    <option disabled selected>Selecione o tamanho</option>
+                    <option value="P">Pequeno</option>
+                    <option value="M">Médio</option>
+                    <option value="G">Grande</option>
+                </select>
+            </div>
+            <div>
+                <button type="submit">Enviar</button>
+            </div>
+        </form>        
+    </fieldset>
+    </div>
+
+    <hr>
+
+    <div>
+    <h2>Exercício HTML Semântico</h2>
+        <header>header</header>
+        <nav>nav</nav>
+        <section>
+            <article>article</article>
+            <article>article</article>
+        </section>
+        <aside>aside</aside>
+    </div>
+
+    <hr>
+
+    <div>
+        <h2>Exercício Meta tags</h2>
+        <p>Obs: Foram adiconadas as meta tags no head da página</p>
+        <xmp>
+            <!DOCTYPE html>
+            <html lang="pt-BR">
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <meta name="keywords" content="exercio, html">
+                <meta name="description" content="Exercícios de html desenvolviidos no curso da Coderhouse">
+                <title>Exercício - Parte 1</title>
+            </head>
+        </xmp>
+    </div>
+</body>
+</html>
